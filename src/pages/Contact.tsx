@@ -142,14 +142,13 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-yellow-900 mb-3">Why Choose PB8 Electricals?</h3>
                   <ul className="space-y-2 text-yellow-800">
                     <li className="flex items-center space-x-2">
-                      <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
                       <span>Fully licensed & insured</span>
                     </li>
                     <li className="flex items-center space-x-2">
-                      <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
+                      
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
