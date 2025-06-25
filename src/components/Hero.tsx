@@ -34,7 +34,6 @@ const Hero = () => {
             <div className="grid sm:grid-cols-2 gap-4 animate-fade-in-up animation-delay-500">
               {[
                 { icon: CheckCircle, text: "Fully Licensed & Insured", delay: "animation-delay-600" },
-                { icon: Clock, text: "24/7 Emergency Service", delay: "animation-delay-700" },
                 { icon: CheckCircle, text: "Quality Workmanship Guarantee", delay: "animation-delay-800" },
                 { icon: CheckCircle, text: "Upfront Fixed Pricing", delay: "animation-delay-900" }
               ].map((feature, index) => (
@@ -61,7 +60,7 @@ const Hero = () => {
                 className="group bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105 hover:shadow-xl"
               >
                 <Phone className="h-5 w-5 group-hover:animate-pulse" />
-                <span>Call Emergency</span>
+               
               </a>
             </div>
 

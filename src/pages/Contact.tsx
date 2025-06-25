@@ -4,14 +4,6 @@ import { Phone, Mail, MapPin, Clock, ArrowRight } from 'lucide-react';
 const Contact = () => {
   const contactInfo = [
     {
-      icon: Phone,
-      title: "Call Us",
-      info: "(+61) 404-398-404",
-      subInfo: "24/7 Emergency Service",
-      action: "tel:61404-398-404",
-      color: "from-green-400 to-green-600"
-    },
-    {
       icon: Mail,
       title: "Email Us",
       info: "pb8electricals@gmail.com",
@@ -23,18 +15,10 @@ const Contact = () => {
       icon: MapPin,
       title: "Service Area",
       info: "Melbourne Metro",
-      subInfo: "All suburbs within 50km of CBD",
       action: null,
       color: "from-purple-400 to-purple-600"
     },
-    {
-      icon: Clock,
-      title: "Business Hours",
-      info: "Mon-Fri: 7AM-6PM",
-      subInfo: "Emergency: 24/7",
-      action: null,
-      color: "from-orange-400 to-orange-600"
-    }
+   
   ];
 
   return (
@@ -94,43 +78,16 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Emergency Call-out */}
-              <div className="bg-gradient-to-r from-red-50 to-red-100 border border-red-200 rounded-2xl p-6 animate-fade-in-up animation-delay-700 relative overflow-hidden">
-                <div className="absolute inset-0 bg-red-pattern opacity-10"></div>
-                <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-red-900 mb-3">Electrical Emergency?</h3>
-                  <p className="text-red-700 mb-4">
-                    Don't wait for dangerous electrical issues. Our emergency electricians are available 24/7 across Melbourne.
-                  </p>
-                  <a 
-                    href="tel:61404398404" 
-                    className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-lg"
-                  >
-                    <Phone className="h-5 w-5 group-hover:animate-pulse" />
-                    <span>Call Now: (61) 404-398-404</span>
-                  </a>
-                </div>
-              </div>
 
               {/* Service Areas */}
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 rounded-2xl p-6 animate-fade-in-up animation-delay-800">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Service Areas</h3>
                 <p className="text-blue-700 mb-3">
-                  We proudly serve all Melbourne metropolitan areas including:
+                  We proudly serve all Melbourne area 
                 </p>
                 <div className="text-sm text-blue-800 grid grid-cols-2 gap-2">
-                  {[
-                    "Melbourne CBD", "Richmond", "South Yarra", "Carlton", "Fitzroy", 
-                    "St Kilda", "Brighton", "Caulfield", "Glen Waverley", "And many more..."
-                  ].map((area, index) => (
-                    <div 
-                      key={index} 
-                      className={`animate-fade-in-up`}
-                      style={{ animationDelay: `${900 + (index * 50)}ms` }}
-                    >
-                      • {area}
-                    </div>
-                  ))}
+                  
+                  
                 </div>
               </div>
             </div>
@@ -186,7 +143,6 @@ const Contact = () => {
                   <ul className="space-y-2 text-yellow-800">
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
-                      <span>15 years of experience</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
@@ -194,7 +150,6 @@ const Contact = () => {
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
-                      <span>24/7 emergency service</span>
                     </li>
                     <li className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>

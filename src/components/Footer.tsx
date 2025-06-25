@@ -22,17 +22,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Professional electrical services across Melbourne. Licensed, insured, and committed to excellence .
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 hover:bg-blue-600 p-2 rounded-lg transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-blue-600 p-2 rounded-lg transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-blue-600 p-2 rounded-lg transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
+            
           </div>
 
           {/* Services */}
@@ -41,8 +31,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { name: "Residential Electrical", path: "/services" },
-                { name: "Commercial Electrical", path: "/services" },
-                { name: "Emergency Services", path: "/services/emergency-troubleshooting" },
+                { name: "Commercial Electrical", path: "/services" },              
                 { name: "LED Lighting Solutions", path: "/services/indoor-outdoor-lighting" },
                 { name: "Safety Inspections", path: "/services/electrical-safety-inspections" },
                 { name: "Electrical Maintenance", path: "/services" },
@@ -66,8 +55,8 @@ const Footer = () => {
               <li><Link to="/about" className="text-gray-300 hover:text-yellow-400 transition-colors">About Us</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-yellow-400 transition-colors">Services</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">Contact</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">Get Quote</Link></li>
-              <li><a href="tel:61404398404" className="text-gray-300 hover:text-yellow-400 transition-colors">Emergency Service</a></li>
+              
+              
             </ul>
           </div>
 
@@ -78,7 +67,6 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-yellow-400 mt-1" />
                 <div>
-                  <p className="font-medium">24/7 Emergency</p>
                   <a href="tel:61404398404" className="text-gray-300 hover:text-yellow-400 transition-colors">
                     (+61) 404-398-404 
                   </a>
@@ -97,17 +85,10 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-yellow-400 mt-1" />
                 <div>
                   <p className="font-medium">Service Area</p>
-                  <p className="text-gray-300">Melbourne Metro</p>
+                  <p className="text-gray-300">Melbourne </p>
                 </div>
               </div>
-              <div className="flex items-start space-x-3">
-                <Clock className="h-5 w-5 text-yellow-400 mt-1" />
-                <div>
-                  <p className="font-medium">Business Hours</p>
-                  <p className="text-gray-300">Mon-Fri: 7AM-6PM</p>
-                  <p className="text-gray-300">Emergency: 24/7</p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -125,12 +106,7 @@ const Footer = () => {
                 Licensed Electrical Contractor | Master Electricians Australia Member
               </p>
             </div>
-            <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">Warranty</a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">Sitemap</a>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ const SwitchboardRepairs = () => {
     "Fuse box to circuit breaker conversion",
     "Additional circuit installation",
     "Switchboard labeling and documentation",
-    "Emergency switchboard repairs"
+   
   ];
 
   const benefits = [

@@ -22,7 +22,7 @@ import ElectricalSafetyInspections from './pages/services/ElectricalSafetyInspec
 import RentalComplianceReports from './pages/services/RentalComplianceReports';
 import RenovationElectricalFitouts from './pages/services/RenovationElectricalFitouts';
 import PoolSpaWiring from './pages/services/PoolSpaWiring';
-import EmergencyTroubleshooting from './pages/services/EmergencyTroubleshooting';
+
 import DataPointConnections from './pages/services/DataPointConnections';
 
 function App() {
@@ -50,8 +50,7 @@ function App() {
           <Route path="/services/electrical-safety-inspections" element={<ElectricalSafetyInspections />} />
           <Route path="/services/rental-compliance-reports" element={<RentalComplianceReports />} />
           <Route path="/services/renovation-electrical-fitouts" element={<RenovationElectricalFitouts />} />
-          <Route path="/services/pool-spa-wiring" element={<PoolSpaWiring />} />
-          <Route path="/services/emergency-troubleshooting" element={<EmergencyTroubleshooting />} />
+          <Route path="/services/pool-spa-wiring" element={<PoolSpaWiring />} />          
           <Route path="/services/data-point-connections" element={<DataPointConnections />} />
         </Routes>
         <Footer />

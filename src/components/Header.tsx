@@ -39,7 +39,6 @@ const Header = () => {
     "Renovation & Specialty Work": [
       { name: "Full Electrical Fit-Outs for Renovations", path: "/services/renovation-electrical-fitouts" },
       { name: "Wiring & Power Setup for Pools & Spas", path: "/services/pool-spa-wiring" },
-      { name: "24/7 Emergency Electrical Troubleshooting", path: "/services/emergency-troubleshooting" },
       { name: "Internet & Data Point Connections", path: "/services/data-point-connections" }
     ]
   };
@@ -165,8 +164,7 @@ const Header = () => {
 
           {/* Emergency Contact */}
           <div className="hidden lg:flex items-center space-x-4">
-            <div className="text-right">
-              <p className="text-sm text-gray-600">24/7 Emergency</p>
+            <div className="text-right">              
               <p className="text-lg font-bold text-blue-700">(+61) 404-398-404</p>
             </div>
             <a 

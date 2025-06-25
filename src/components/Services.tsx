@@ -58,7 +58,6 @@ const Services = () => {
       features: [
         "Full Electrical Fit-Outs for Renovations",
         "Wiring & Power Setup for Pools & Spas",
-        "24/7 Emergency Electrical Troubleshooting",
         "Internet & Data Point Connections"
       ],
       color: "from-purple-400 to-purple-600"
@@ -130,28 +129,7 @@ const Services = () => {
           ))}
         </div>
 
-        {/* Emergency Banner */}
-        <div className="bg-gradient-to-r from-red-50 to-red-100 border border-red-200 rounded-2xl p-8 text-center animate-fade-in-up animation-delay-800 relative overflow-hidden">
-          <div className="absolute inset-0 bg-red-pattern opacity-10"></div>
-          <div className="relative z-10">
-            <div className="flex items-center justify-center mb-4">
-              <div className="bg-red-100 p-3 rounded-full animate-pulse">
-                <AlertTriangle className="h-8 w-8 text-red-600" />
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold text-red-900 mb-2">Electrical Emergency?</h3>
-            <p className="text-red-700 mb-6 text-lg">
-              Don't wait - electrical emergencies can be dangerous. Our emergency electricians are available 24/7.
-            </p>
-            <a 
-              href="tel:61404398404" 
-              className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-xl"
-            >
-              <span>Call Emergency: (61) 404-398-404</span>
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </a>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

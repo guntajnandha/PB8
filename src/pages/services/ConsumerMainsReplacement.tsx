@@ -11,7 +11,7 @@ const ConsumerMainsReplacement = () => {
     "Overhead service upgrades",
     "Electrical service capacity increases",
     "Compliance certification",
-    "Emergency mains repairs"
+    
   ];
 
   const benefits = [

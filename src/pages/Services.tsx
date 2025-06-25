@@ -54,7 +54,6 @@ const Services = () => {
       features: [
         { name: "Full Electrical Fit-Outs for Renovations", path: "/services/renovation-electrical-fitouts" },
         { name: "Wiring & Power Setup for Pools & Spas", path: "/services/pool-spa-wiring" },
-        { name: "24/7 Emergency Electrical Troubleshooting", path: "/services/emergency-troubleshooting" },
         { name: "Internet & Data Point Connections", path: "/services/data-point-connections" }
       ],
       color: "from-purple-400 to-purple-600"
