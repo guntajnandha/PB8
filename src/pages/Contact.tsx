@@ -103,7 +103,7 @@ const Contact = () => {
                     Don't wait for dangerous electrical issues. Our emergency electricians are available 24/7 across Melbourne.
                   </p>
                   <a 
-                    href="tel:0312345678" 
+                    href="tel:61404398404" 
                     className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-lg"
                   >
                     <Phone className="h-5 w-5 group-hover:animate-pulse" />
@@ -152,7 +152,7 @@ const Contact = () => {
                     </div>
                   </div>
                   <a 
-                    href="tel:0312345678"
+                    href="tel:61404398404"
                     className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105"
                   >
                     <Phone className="h-5 w-5" />

@@ -53,7 +53,7 @@ const EmergencyTroubleshooting = () => {
           <div className="bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl p-8 mb-12 text-center">
             <h2 className="text-2xl font-bold text-red-900 mb-4">Electrical Emergency? Call Now!</h2>
             <a 
-              href="tel:0312345678"
+              href="tel:61404398404"
               className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-semibold text-xl transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-xl"
             >
               <Phone className="h-6 w-6" />
@@ -147,7 +147,7 @@ const EmergencyTroubleshooting = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:0312345678"
+                href="tel:61404398404"
                 className="bg-white text-red-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="h-6 w-6" />

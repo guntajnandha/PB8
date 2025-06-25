@@ -67,7 +67,7 @@ const About = () => {
               <div className="bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200 rounded-2xl p-6 animate-fade-in-up animation-delay-1000">
                 <h3 className="text-xl font-bold text-blue-900 mb-3">Our Experience</h3>
                 <p className="text-blue-700 text-lg">
-                  With <span className="font-bold">15 years of experience</span> in the electrical industry, we have successfully completed thousands of projects across Melbourne, from simple residential repairs to complex commercial installations.
+                   We have successfully completed thousands of projects across Melbourne, from simple residential repairs to complex commercial installations.
                 </p>
               </div>
 

@@ -57,7 +57,7 @@ const Hero = () => {
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
               </Link>
               <a 
-                href="tel:0312345678" 
+                href="tel:61404398404" 
                 className="group bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105 hover:shadow-xl"
               >
                 <Phone className="h-5 w-5 group-hover:animate-pulse" />

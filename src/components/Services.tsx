@@ -144,10 +144,10 @@ const Services = () => {
               Don't wait - electrical emergencies can be dangerous. Our emergency electricians are available 24/7.
             </p>
             <a 
-              href="tel:0312345678" 
+              href="tel:61404398404" 
               className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-xl"
             >
-              <span>Call Emergency: (03) 1234 5678</span>
+              <span>Call Emergency: (61) 404-398-404</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
             </a>
           </div>

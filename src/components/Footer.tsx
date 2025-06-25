@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <img src="/logo.png" alt="PB8 Electricals Logo" className="h-12 w-12 object-contain" />
+              <img src="/logo.jpg" alt="PB8 Electricals Logo" className="h-12 w-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold">PB8 Electricals</h3>
                 <p className="text-gray-400 text-sm">Melbourne's Trusted Electricians</p>
