@@ -12,10 +12,8 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-blue-700 p-2 rounded-lg">
-                <Zap className="h-6 w-6 text-yellow-400" />
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img src="/logo.png" alt="PB8 Electricals Logo" className="h-12 w-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold">PB8 Electricals</h3>
                 <p className="text-gray-400 text-sm">Melbourne's Trusted Electricians</p>
@@ -69,7 +67,7 @@ const Footer = () => {
               <li><Link to="/services" className="text-gray-300 hover:text-yellow-400 transition-colors">Services</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">Contact</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-yellow-400 transition-colors">Get Quote</Link></li>
-              <li><a href="tel:0312345678" className="text-gray-300 hover:text-yellow-400 transition-colors">Emergency Service</a></li>
+              <li><a href="tel:61404398404" className="text-gray-300 hover:text-yellow-400 transition-colors">Emergency Service</a></li>
             </ul>
           </div>
 
@@ -81,8 +79,8 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-yellow-400 mt-1" />
                 <div>
                   <p className="font-medium">24/7 Emergency</p>
-                  <a href="tel:0312345678" className="text-gray-300 hover:text-yellow-400 transition-colors">
-                    (03) 1234 5678
+                  <a href="tel:61404398404" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    (+61) 404-398-404 
                   </a>
                 </div>
               </div>
@@ -90,8 +88,8 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-yellow-400 mt-1" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <a href="mailto:info@pb8electricals.com.au" className="text-gray-300 hover:text-yellow-400 transition-colors">
-                    info@pb8electricals.com.au
+                  <a href="pb8electricals@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    pb8electricals@gmail.com 
                   </a>
                 </div>
               </div>

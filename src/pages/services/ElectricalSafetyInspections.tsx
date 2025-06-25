@@ -134,7 +134,7 @@ const ElectricalSafetyInspections = () => {
                 className="bg-white text-orange-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
-                <span>Call (03) 1234 5678</span>
+                <span>Call (61) 404-398-404</span>
               </a>
               <Link 
                 to="/contact"

@@ -57,7 +57,7 @@ const EmergencyTroubleshooting = () => {
               className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-semibold text-xl transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-xl"
             >
               <Phone className="h-6 w-6" />
-              <span>(03) 1234 5678</span>
+              <span>(61) 404-398-404</span>
             </a>
             <p className="text-red-700 mt-4">Available 24 hours a day, 7 days a week</p>
           </div>
@@ -151,7 +151,7 @@ const EmergencyTroubleshooting = () => {
                 className="bg-white text-red-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="h-6 w-6" />
-                <span>EMERGENCY: (03) 1234 5678</span>
+                <span>EMERGENCY: (61) 404-398-404</span>
               </a>
             </div>
           </div>

@@ -204,7 +204,7 @@ const Header = () => {
                   className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 w-full transform hover:scale-105"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>(03) 1234 5678</span>
+                  <span>(+61) 404-398-404</span>
                 </a>
               </div>
             </nav>

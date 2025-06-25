@@ -6,17 +6,17 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      info: "(03) 1234 5678",
+      info: "(+61) 404-398-404",
       subInfo: "24/7 Emergency Service",
-      action: "tel:0312345678",
+      action: "tel:61404-398-404",
       color: "from-green-400 to-green-600"
     },
     {
       icon: Mail,
       title: "Email Us",
-      info: "info@pb8electricals.com.au",
+      info: "pb8electricals@gmail.com",
       subInfo: "We'll respond within 2 hours",
-      action: "mailto:info@pb8electricals.com.au",
+      action: "mailto:pb8electricals@gmail.com",
       color: "from-blue-400 to-blue-600"
     },
     {
@@ -107,7 +107,7 @@ const Contact = () => {
                     className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center space-x-2 transform hover:scale-105 hover:shadow-lg"
                   >
                     <Phone className="h-5 w-5 group-hover:animate-pulse" />
-                    <span>Call Now: (03) 1234 5678</span>
+                    <span>Call Now: (61) 404-398-404</span>
                   </a>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Contact = () => {
                     className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105"
                   >
                     <Phone className="h-5 w-5" />
-                    <span>(03) 1234 5678</span>
+                    <span>(61) 404-398-404</span>
                   </a>
                 </div>
 
@@ -172,11 +172,11 @@ const Contact = () => {
                     </div>
                   </div>
                   <a 
-                    href="mailto:info@pb8electricals.com.au"
+                    href="pb8electricals@gmail.com"
                     className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105"
                   >
                     <Mail className="h-5 w-5" />
-                    <span>info@pb8electricals.com.au</span>
+                    <span>pb8electricals@gmail.com</span>
                   </a>
                 </div>
 
