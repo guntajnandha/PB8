@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Professional electrical services across Melbourne. Licensed, insured, and committed to excellence with 15 years of experience.
+              Professional electrical services across Melbourne. Licensed, insured, and committed to excellence .
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 hover:bg-blue-600 p-2 rounded-lg transition-colors">

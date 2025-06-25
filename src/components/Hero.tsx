@@ -77,10 +77,11 @@ const Hero = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl transform rotate-6 group-hover:rotate-3 transition-transform duration-500"></div>
               <img 
-                src="https://images.pexels.com/photos/8961342/pexels-photo-8961342.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Professional electrician working safely"
+                src="/hero.png" 
+                alt="PB8 Hero Banner"
                 className="relative rounded-2xl shadow-2xl w-full h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
+
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-lg animate-float">
                 <div className="text-center">
                   <p className="text-3xl font-bold text-blue-700 animate-counter">24/7</p>

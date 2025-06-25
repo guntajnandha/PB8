@@ -167,7 +167,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="text-right">
               <p className="text-sm text-gray-600">24/7 Emergency</p>
-              <p className="text-lg font-bold text-blue-700">(03) 1234 5678</p>
+              <p className="text-lg font-bold text-blue-700">(+61) 404-398-404</p>
             </div>
             <a 
               href="tel:0312345678" 
