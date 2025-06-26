@@ -66,8 +66,8 @@ const Hero = () => {
 
             {/* Service Areas */}
             <div className="pt-8 border-t border-gray-200 animate-fade-in-up animation-delay-1200">
-              <p className="text-sm text-gray-600 mb-2">Servicing Melbourne Metro Areas:</p>
-              <p className="text-gray-700">CBD • Richmond • South Yarra • Carlton • Fitzroy • St Kilda • Brighton • Caulfield • Glen Waverley</p>
+              
+              
             </div>
           </div>
 
