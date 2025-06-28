@@ -76,8 +76,8 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-yellow-400 mt-1" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <a href="pb8electricals@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">
-                    pb8electricals@gmail.com 
+                  <a href="info@pb8electricals.com.au" className="text-gray-300 hover:text-yellow-400 transition-colors">
+                    info@pb8electricals.com.au 
                   </a>
                 </div>
               </div>

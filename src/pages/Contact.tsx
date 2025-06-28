@@ -6,15 +6,15 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      info: "pb8electricals@gmail.com",
+      info: "info@pb8electricals.com.au",
       subInfo: "We'll respond within 2 hours",
-      action: "mailto:pb8electricals@gmail.com",
+      action: "mailto:info@pb8electricals.com.au",
       color: "from-blue-400 to-blue-600"
     },
     {
       icon: MapPin,
       title: "Service Area",
-      info: "Melbourne Metro",
+      info: "Melbourne",
       action: null,
       color: "from-purple-400 to-purple-600"
     },
@@ -129,11 +129,11 @@ const Contact = () => {
                     </div>
                   </div>
                   <a 
-                    href="pb8electricals@gmail.com"
+                    href="info@pb8electricals.com.au"
                     className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105"
                   >
                     <Mail className="h-5 w-5" />
-                    <span>pb8electricals@gmail.com</span>
+                    <span>info@pb8electricals.com.au</span>
                   </a>
                 </div>
 
