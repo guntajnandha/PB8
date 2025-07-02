@@ -95,37 +95,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6 animate-fade-in-up animation-delay-400">
               <div className="space-y-6">
                 <div className="group relative overflow-hidden rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-500">
-                  <img 
-                    src="https://images.pexels.com/photos/8924675/pexels-photo-8924675.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Professional electrician at work"
-                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div className="group relative overflow-hidden rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-500 animation-delay-200">
-                  <img 
-                    src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Electrical panel installation"
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-              </div>
-              <div className="space-y-6 pt-12">
-                <div className="group relative overflow-hidden rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-500 animation-delay-400">
-                  <img 
-                    src="https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Professional electrical tools"
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <div className="group relative overflow-hidden rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-500 animation-delay-600">
-                  <img 
-                    src="https://images.pexels.com/photos/4254167/pexels-photo-4254167.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Modern electrical panel"
-                    className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                  
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </div>
