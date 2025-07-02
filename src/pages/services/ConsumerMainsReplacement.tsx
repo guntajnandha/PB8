@@ -76,7 +76,7 @@ const ConsumerMainsReplacement = () => {
             <div>
               <div className="mb-8">
                 <img 
-                  src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/consumermain.jpg" 
                   alt="Electrical service installation"
                   className="w-full h-64 object-cover rounded-xl shadow-lg"
                 />

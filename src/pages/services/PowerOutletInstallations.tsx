@@ -76,7 +76,7 @@ const PowerOutletInstallations = () => {
             <div>
               <div className="mb-8">
                 <img 
-                  src="https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/poweroutlet.jpg" 
                   alt="Professional power outlet installation"
                   className="w-full h-64 object-cover rounded-xl shadow-lg"
                 />

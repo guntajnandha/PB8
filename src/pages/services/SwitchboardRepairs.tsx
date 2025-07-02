@@ -76,7 +76,7 @@ const SwitchboardRepairs = () => {
             <div>
               <div className="mb-8">
                 <img 
-                  src="https://images.pexels.com/photos/4254167/pexels-photo-4254167.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/switchboard.jpg" 
                   alt="Modern electrical switchboard"
                   className="w-full h-64 object-cover rounded-xl shadow-lg"
                 />
